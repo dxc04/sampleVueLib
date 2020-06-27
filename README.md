@@ -12,7 +12,7 @@ $ npm install --save @datay/xtool-components
 
 ```js
 <script lang="ts">
-import { ColorContrast } from "@datay/x-tool-components"
+import { ColorContrast } from "@datay/xtool-components"
 
 export default {
     components: {
