@@ -1,4 +1,4 @@
-# @datay/xtool-components [![NPM version](https://badge.fury.io/js/@datay/xtool-components.svg)](https://npmjs.org/package/@datay/xtool-components) [![Build Status](https://travis-ci.org/dxc04/@datay/xtool-components.svg?branch=master)](https://travis-ci.org/dxc04/@datay/xtool-components)
+# @datay/xtool-components  [![npm version](https://badge.fury.io/js/%40datay%2Fxtool-components.svg)](https://badge.fury.io/js/%40datay%2Fxtool-components) 
 
 > Boilerplate for creating vue lib or web component
 
