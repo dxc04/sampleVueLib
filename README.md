@@ -34,7 +34,6 @@ or on existing non vue project
 ```
 
 ```js
-import { ColorContrast } from "@datay/x-tool-components"
 var components = require('@datay/xtool-components');
 
 new Vue({
