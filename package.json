@@ -9,6 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "main": "dist/xtools-components.common.js",
+  "repository": "github:dxc04/sampleVueLib",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
