@@ -8,8 +8,8 @@
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/x-tool.umd.js",
-  "unpkg": "dist/x-tools.min.js",
+  "main": "dist/x-tool.js",
+  "unpkg": "dist/x-tool.min.js",
   "repository": "github:dxc04/sampleVueLib",
   "dependencies": {
     "core-js": "^3.6.5",
