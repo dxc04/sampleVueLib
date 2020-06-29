@@ -29,23 +29,12 @@ or on existing non vue project
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="path/to/xtools-component.js"></script>
 <div id="app">
+    <color-contrast />
 </div>
 ```
 
-```js
-var components = require('@datay/xtool-components');
-
-new Vue({
-  el: '#app',
-  template: `
-    <div>
-        <ColorContrast />
-    </div>
-  `,
-  components: { ColorContrast: components.ColorContrast },
-});
-```
 
 ## License
 
