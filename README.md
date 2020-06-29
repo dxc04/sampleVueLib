@@ -34,7 +34,37 @@ or on existing non vue project
     <xtool-color-contrast />
 </div>
 ```
+Prefix `xtool` is a result of vue-cli naming convention for multiple web components. 
+The custom element name will be inferred from the component filename.
+For example, with --name foo and a component named HelloWorld.vue, the resulting custom element will be registered as <foo-hello-world>
 
+## Building Components
+
+To build for lib and web component usage
+```sh
+npm run build
+```
+
+To only build lib
+```sh
+npm run build:lib
+```
+
+To only build web components
+```sh
+npm run build:wc
+```
+
+## Testing
+
+Unit tests are placed in `tests/unit/`. Ideally each component will have corresponding unit test. Currently `ColorContrast` have `ColorContrast.spec.ts` unit test.
+To run unit tests
+```sh
+npm run test:unit
+```
+
+## Misc
+I use [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) for my commit message 
 
 ## License
 
