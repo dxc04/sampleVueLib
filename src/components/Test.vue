@@ -1,5 +1,5 @@
 <template>
-    <div>This is a test component</div>
+  <div>This is a test component</div>
 </template>
 
 <script lang="ts">
@@ -8,4 +8,3 @@ import { Component, Vue } from "vue-property-decorator";
 @Component
 export default class Test extends Vue {}
 </script>
-

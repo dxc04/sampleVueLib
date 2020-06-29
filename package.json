@@ -3,9 +3,9 @@
   "version": "0.1.14",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --inline-vue --name xtool 'src/main.ts'",
-    "build-wc": "vue-cli-service build --target wc --inline-vue --name xtool 'src/components/*.vue'",
+    "build": "npm run build:lib & npm run build:wc",
+    "build:lib": "vue-cli-service build --target lib --name xtool 'src/main.ts'",
+    "build:wc": "vue-cli-service build --target wc --name xtool 'src/components/*.vue'",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
