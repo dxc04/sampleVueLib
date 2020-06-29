@@ -11,7 +11,7 @@ $ npm install --save @datay/xtool-components
 ## Usage
 
 ```js
-<script lang="ts">
+<script>
 import { ColorContrast } from "@datay/xtool-components"
 
 export default {
@@ -31,7 +31,7 @@ or on existing non vue project
 <script src="https://unpkg.com/vue"></script>
 <script src="https://unpkg.com/@datay/xtool-components"></script>
 <div id="app">
-    <color-contrast />
+    <xtool-color-contrast />
 </div>
 ```
 
