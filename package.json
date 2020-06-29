@@ -4,12 +4,12 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-wc": "vue-cli-service build --target wc --inline-vue --name xtools-components src/components/*.vue",
+    "build-wc": "vue-cli-service build --target wc --inline-vue --name x-tool src/components/*.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
-  "main": "dist/xtools-components.umd.js",
-  "unpkg": "dist/xtools-components.min.js",
+  "main": "dist/x-tool.umd.js",
+  "unpkg": "dist/x-tools.min.js",
   "repository": "github:dxc04/sampleVueLib",
   "dependencies": {
     "core-js": "^3.6.5",

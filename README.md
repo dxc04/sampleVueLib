@@ -28,8 +28,8 @@ export default {
 or on existing non vue project
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="path/to/xtools-component.js"></script>
+<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/@datay/xtool-components"></script>
 <div id="app">
     <color-contrast />
 </div>
