@@ -2,13 +2,12 @@
 
 > Boilerplate for creating vue lib or web component
 
-## Installation
+## Usage
 
+Within node environment
 ```sh
 $ npm install --save @datay/xtool-components
 ```
-
-## Usage
 
 ```js
 <script>
@@ -40,6 +39,12 @@ For example, with --name foo and a component named HelloWorld.vue, the resulting
 
 ## Building Components
 
+Make sure first that vue cli and vue cli-service-global was installed globally.
+They will be use on building packages and service components
+```sh
+npm install -g @vue/cli @vue/cli-service-global
+```
+
 To build for lib and web component usage
 ```sh
 npm run build
@@ -55,6 +60,26 @@ To only build web components
 npm run build:wc
 ```
 
+## Working on Components
+When working on the components, there are too ways see the output: 
+- via script tag -> wc
+- via serving the vue component -> lib
+
+
+* Working for wc
+- Before the changes are reflected make sure to build your changes.
+```sh
+npm run build:wc
+```
+- Load demo html in `./dist/demo.html` to your broswer
+
+* Working for lib components
+- Serve vue component
+```sh
+vue serve src/components/ColorContrast.vue
+```
+- See component in action on http://localhost:5000
+
 ## Testing
 
 Unit tests are placed in `tests/unit/`. Ideally each component will have corresponding unit test. Currently `ColorContrast` have `ColorContrast.spec.ts` unit test.
@@ -63,8 +88,8 @@ To run unit tests
 npm run test:unit
 ```
 
-## Misc
-I use [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli) for my commit message 
+## Git commiting
+It would be great if we can use this [gitmoji-cli](https://github.com/JPeer264/node-semantic-git-commit-cli) for semantic commits
 
 ## License
 
