@@ -1,6 +1,6 @@
 # @datay/xtool-components  [![npm version](https://badge.fury.io/js/%40datay%2Fxtool-components.svg)](https://badge.fury.io/js/%40datay%2Fxtool-components) 
 
-> Boilerplate for creating vue lib or web component
+> Sample setup for creating vue lib and web component
 
 ## Usage
 
@@ -45,12 +45,12 @@ They will be use on building packages and service components
 npm install -g @vue/cli @vue/cli-service-global
 ```
 
-To build for lib and web component usage
+To build for lib and web component
 ```sh
 npm run build
 ```
 
-To only build lib
+To only build lib components
 ```sh
 npm run build:lib
 ```
@@ -66,14 +66,14 @@ When working on the components, there are too ways see the output:
 - via serving the vue component -> lib
 
 
-* Working for wc
+### Web Components
 - Before the changes are reflected make sure to build your changes.
 ```sh
 npm run build:wc
 ```
 - Load demo html in `./dist/demo.html` to your broswer
 
-* Working for lib components
+### Lib Components
 - Serve vue component
 ```sh
 vue serve src/components/ColorContrast.vue
