@@ -1,5 +1,5 @@
 <template>
-  <div>This is a test component</div>
+  <div>This is a test component. DO NOT DELETE!</div>
 </template>
 
 <script lang="ts">

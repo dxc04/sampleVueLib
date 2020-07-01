@@ -1,5 +1,3 @@
-import Vue from "vue";
-
 // import components here
 import ColorContrast from "./components/ColorContrast.vue";
 

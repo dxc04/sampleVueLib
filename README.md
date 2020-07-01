@@ -45,7 +45,7 @@ They will be use on building packages and service components
 npm install -g @vue/cli @vue/cli-service-global
 ```
 
-To build for lib and web component
+To build for lib and web components
 ```sh
 npm run build
 ```
@@ -61,17 +61,17 @@ npm run build:wc
 ```
 
 ## Working on Components
-When working on the components, there are too ways see the output: 
+When working on the components, there are too ways to vuew the output: 
 - via script tag -> wc
 - via serving the vue component -> lib
 
 
 ### Web Components
-- Before the changes are reflected make sure to build your changes.
+- Before the changes are reflected, make sure to build your changes.
 ```sh
 npm run build:wc
 ```
-- Load demo html in `./dist/demo.html` to your broswer
+- Load demo html in `./dist/demo.html` to your browser
 
 ### Lib Components
 - Serve vue component
